@@ -10,7 +10,7 @@ with open('day14input.txt') as f:
         if 'mem' in l:
             mems.append(l.strip())
         l=f.readline()
-#print(mems)
+
 
 def getlocations():
     locs=[]
